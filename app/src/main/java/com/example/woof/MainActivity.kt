@@ -124,7 +124,7 @@ fun DogItem(
                 stiffness = Spring.StiffnessMedium))) {
             Row(
                 modifier = Modifier
-                    .fillMaxWidth()
+                .fillMaxWidth()
                     .padding(dimensionResource(R.dimen.padding_small))
             ) {
                 DogIcon(dog.imageResourceId)
